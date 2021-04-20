@@ -1,0 +1,22 @@
+# required by netdata command
+net-tools
+ethtool
+
+# required by hwdata command
+pciutils
+
+# provides loadkeys command
+console-data
+
+# SSH-Server
+openssh-server
+
+# Syntax Highlighting and no weird key bindings for vi
+vim
+
+# other usefull stuff
+curl
+htop
+tree
+ncdu
+tmux

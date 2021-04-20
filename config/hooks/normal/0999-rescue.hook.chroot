@@ -1,0 +1,8 @@
+#!/bin/bash -e
+echo "I: running $0"
+
+mkdir /root/.ssh
+cat <<EOF > /root/.ssh/authorized_keys
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+hh7C4jbZKjGIgienueKP6VDwN7LPjwrcwiZDLKP1JMFxWz6Y4ypmr2k6IJ8z0S9oJWRrVHKCeMkunWoVDyKbG3Y7kMLQTnO+GrjTpx6+xu4jgDcV2dwN3bq5cH+8pUs8c14Sc1t45bhUwEUYW/gr7gqDXx9K7wMRkMRyAlg8lsoSwXywipNbUVS9OTc5wWMsIm+ISiyk7+qwoFXMGaaoWFc/dDuGMIa+XHPORxcr5t/pM0ZfkRdwcY7t08UAUmHKI1FkAsBb7cXEglNit1G1HSapTBNBy2jKae3dKw6IA5Rk9vKrcFSwM0tjGHqser3y/PigPCK6is2Gbm4xrZWf heikobornholdt@me.com
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIE0i+q29dIZKrILhgd2LGBZrHwh3Zy4kpCbkpfGKVQqP heiko@bornholdt.io
+EOF
